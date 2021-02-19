@@ -1,0 +1,74 @@
+.scroll {
+    height: 10vw;
+    border-bottom: none;
+    width: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.card {
+    height: 30vw;
+}
+
+.carousel {
+    background-color: white;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    height: 100px;
+    width: 100px;
+    outline: black;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    background-image: none;
+}
+
+.carousel-control-next-icon:after {
+    content: '>';
+    font-size: 55px;
+    color: black;
+}
+
+.carousel-control-prev-icon:after {
+    content: '<';
+    font-size: 55px;
+    color: black;
+}
+
+a.none_link_line,
+a:hover.none_link_line,
+a:visited.none_link_line,
+a:focus.none_link_line {
+    text-decoration: none;
+    color: white;
+}
+
+.position-fixed.second_div {
+    right: 0;
+}
+
+legend {
+    border-bottom: 1px solid darkgrey;
+}
+
+.index, .content {
+    position: relative;
+}
+
+.index nav {
+    z-index: initial;
+    width: 100%;
+}
+
+.index {
+    z-index: 1;
+}
+
+.genres {
+    height: 62px;
+}
+
+.content {
+    padding-top: 62px;
+}

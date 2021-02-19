@@ -1,65 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="57518b47-a993-4e3f-b4c9-857e816f2b46" name="Default Changelist" comment="" />
+    <list default="true" id="57518b47-a993-4e3f-b4c9-857e816f2b46" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="semester_work@localhost" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="semester_work@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="semester_work@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="semester_work: database" type="162271b6:PgImplModel$Database" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="semester_work@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="semester_work: database" type="162271b6:PgImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="semester_work@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="semester_work: database" type="162271b6:PgImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="semester_work@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="semester_work: database" type="162271b6:PgImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
-        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-    </expand>
-    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -70,6 +23,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -77,18 +33,26 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.3\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1jWfcbqZTmEKLAw85x8TBA5XUNs" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/html" />
+    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/Semester" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -186,42 +150,7 @@
       </method>
     </configuration>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Failed" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:semester_work@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:semester_work@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@3daf8a65" type="9fbbdea:ServiceModel$ServiceNode" />
-              </path>
-            </expand>
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -233,100 +162,17 @@
       <option name="presentableId" value="Default" />
       <updated>1603924848599</updated>
       <workItem from="1603924851743" duration="15698000" />
+      <workItem from="1613692461899" duration="2797000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="361" y="112" key="#Project_Structure" timestamp="1603925545314">
+    <state x="549" y="209" key="FileChooserDialogImpl" timestamp="1613696467219">
       <screen x="0" y="43" width="1536" height="821" />
     </state>
-    <state x="361" y="112" key="#Project_Structure/0.43.1536.821@0.43.1536.821" timestamp="1603925545314" />
-    <state x="361" y="112" key="#SQL_Dialects" timestamp="1603924917975">
-      <screen x="0" y="43" width="1536" height="821" />
-    </state>
-    <state x="361" y="112" key="#SQL_Dialects/0.43.1536.821@0.43.1536.821" timestamp="1603924917975" />
-    <state x="361" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603937165409">
-      <screen x="0" y="43" width="1536" height="821" />
-    </state>
-    <state x="361" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.43.1536.821@0.43.1536.821" timestamp="1603937165409" />
-    <state x="574" y="163" key="#com.intellij.ide.util.MemberChooser" timestamp="1603943039966">
-      <screen x="0" y="43" width="1536" height="821" />
-    </state>
-    <state x="574" y="163" key="#com.intellij.ide.util.MemberChooser/0.43.1536.821@0.43.1536.821" timestamp="1603943039966" />
-    <state x="566" y="313" width="403" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1603925473811">
-      <screen x="0" y="43" width="1536" height="821" />
-    </state>
-    <state x="566" y="313" width="403" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.43.1536.821@0.43.1536.821" timestamp="1603925473811" />
-    <state width="1024" height="167" key="GridCell.Tab.0.bottom" timestamp="1603945307182">
-      <screen x="0" y="43" width="1536" height="821" />
-    </state>
-    <state width="1024" height="167" key="GridCell.Tab.0.bottom/0.43.1536.821@0.43.1536.821" timestamp="1603945307182" />
-    <state width="1024" height="167" key="GridCell.Tab.0.center" timestamp="1603945307182">
-      <screen x="0" y="43" width="1536" height="821" />
-    </state>
-    <state width="1024" height="167" key="GridCell.Tab.0.center/0.43.1536.821@0.43.1536.821" timestamp="1603945307182" />
-    <state width="1024" height="167" key="GridCell.Tab.0.left" timestamp="1603945307182">
-      <screen x="0" y="43" width="1536" height="821" />
-    </state>
-    <state width="1024" height="167" key="GridCell.Tab.0.left/0.43.1536.821@0.43.1536.821" timestamp="1603945307182" />
-    <state width="1024" height="167" key="GridCell.Tab.0.right" timestamp="1603945307182">
-      <screen x="0" y="43" width="1536" height="821" />
-    </state>
-    <state width="1024" height="167" key="GridCell.Tab.0.right/0.43.1536.821@0.43.1536.821" timestamp="1603945307182" />
-    <state width="1024" height="167" key="GridCell.Tab.1.bottom" timestamp="1603945307184">
-      <screen x="0" y="43" width="1536" height="821" />
-    </state>
-    <state width="1024" height="167" key="GridCell.Tab.1.bottom/0.43.1536.821@0.43.1536.821" timestamp="1603945307184" />
-    <state width="1024" height="167" key="GridCell.Tab.1.center" timestamp="1603945307183">
-      <screen x="0" y="43" width="1536" height="821" />
-    </state>
-    <state width="1024" height="167" key="GridCell.Tab.1.center/0.43.1536.821@0.43.1536.821" timestamp="1603945307183" />
-    <state width="1024" height="167" key="GridCell.Tab.1.left" timestamp="1603945307183">
-      <screen x="0" y="43" width="1536" height="821" />
-    </state>
-    <state width="1024" height="167" key="GridCell.Tab.1.left/0.43.1536.821@0.43.1536.821" timestamp="1603945307183" />
-    <state width="1024" height="167" key="GridCell.Tab.1.right" timestamp="1603945307184">
-      <screen x="0" y="43" width="1536" height="821" />
-    </state>
-    <state width="1024" height="167" key="GridCell.Tab.1.right/0.43.1536.821@0.43.1536.821" timestamp="1603945307184" />
-    <state width="1024" height="167" key="GridCell.Tab.2.bottom" timestamp="1603945307184">
-      <screen x="0" y="43" width="1536" height="821" />
-    </state>
-    <state width="1024" height="167" key="GridCell.Tab.2.bottom/0.43.1536.821@0.43.1536.821" timestamp="1603945307184" />
-    <state width="1024" height="167" key="GridCell.Tab.2.center" timestamp="1603945307184">
-      <screen x="0" y="43" width="1536" height="821" />
-    </state>
-    <state width="1024" height="167" key="GridCell.Tab.2.center/0.43.1536.821@0.43.1536.821" timestamp="1603945307184" />
-    <state width="1024" height="167" key="GridCell.Tab.2.left" timestamp="1603945307184">
-      <screen x="0" y="43" width="1536" height="821" />
-    </state>
-    <state width="1024" height="167" key="GridCell.Tab.2.left/0.43.1536.821@0.43.1536.821" timestamp="1603945307184" />
-    <state width="1024" height="167" key="GridCell.Tab.2.right" timestamp="1603945307184">
-      <screen x="0" y="43" width="1536" height="821" />
-    </state>
-    <state width="1024" height="167" key="GridCell.Tab.2.right/0.43.1536.821@0.43.1536.821" timestamp="1603945307184" />
-    <state width="1024" height="167" key="GridCell.Tab.3.bottom" timestamp="1603945307185">
-      <screen x="0" y="43" width="1536" height="821" />
-    </state>
-    <state width="1024" height="167" key="GridCell.Tab.3.bottom/0.43.1536.821@0.43.1536.821" timestamp="1603945307185" />
-    <state width="1024" height="167" key="GridCell.Tab.3.center" timestamp="1603945307184">
-      <screen x="0" y="43" width="1536" height="821" />
-    </state>
-    <state width="1024" height="167" key="GridCell.Tab.3.center/0.43.1536.821@0.43.1536.821" timestamp="1603945307184" />
-    <state width="1024" height="167" key="GridCell.Tab.3.left" timestamp="1603945307184">
-      <screen x="0" y="43" width="1536" height="821" />
-    </state>
-    <state width="1024" height="167" key="GridCell.Tab.3.left/0.43.1536.821@0.43.1536.821" timestamp="1603945307184" />
-    <state width="1024" height="167" key="GridCell.Tab.3.right" timestamp="1603945307185">
-      <screen x="0" y="43" width="1536" height="821" />
-    </state>
-    <state width="1024" height="167" key="GridCell.Tab.3.right/0.43.1536.821@0.43.1536.821" timestamp="1603945307185" />
-    <state x="465" y="278" key="com.intellij.ide.util.TipDialog" timestamp="1604098840580">
-      <screen x="0" y="43" width="1536" height="821" />
-    </state>
-    <state x="465" y="278" key="com.intellij.ide.util.TipDialog/0.43.1536.821@0.43.1536.821" timestamp="1604098840580" />
+    <state x="549" y="209" key="FileChooserDialogImpl/0.43.1536.821@0.43.1536.821" timestamp="1613696467219" />
   </component>
 </project>
