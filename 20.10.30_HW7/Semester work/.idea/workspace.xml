@@ -5,9 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="57518b47-a993-4e3f-b4c9-857e816f2b46" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../21.02.19_HW9/Spring_boot_semester_work/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../21.02.19_HW9/Spring_boot_semester_work/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../21.02.19_HW9/Spring_boot_semester_work/src/main/java/ru/itis/springbootsemester/controllers/SignUpController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../21.02.19_HW9/Spring_boot_semester_work/src/main/java/ru/itis/springbootsemester/controllers/SignUpController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../21.02.19_HW9/Spring_boot_semester_work/src/main/java/ru/itis/springbootsemester/dto/UserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../21.02.19_HW9/Spring_boot_semester_work/src/main/java/ru/itis/springbootsemester/dto/UserDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../21.02.19_HW9/Spring_boot_semester_work/src/main/java/ru/itis/springbootsemester/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../21.02.19_HW9/Spring_boot_semester_work/src/main/java/ru/itis/springbootsemester/models/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../21.02.19_HW9/Spring_boot_semester_work/src/main/java/ru/itis/springbootsemester/repositories/UsersRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../21.02.19_HW9/Spring_boot_semester_work/src/main/java/ru/itis/springbootsemester/repositories/UsersRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../21.02.19_HW9/Spring_boot_semester_work/src/main/java/ru/itis/springbootsemester/services/SignUpService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../21.02.19_HW9/Spring_boot_semester_work/src/main/java/ru/itis/springbootsemester/services/SignUpService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../21.02.19_HW9/Spring_boot_semester_work/src/main/java/ru/itis/springbootsemester/services/SignUpServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../21.02.19_HW9/Spring_boot_semester_work/src/main/java/ru/itis/springbootsemester/services/SignUpServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../21.02.19_HW9/Spring_boot_semester_work/src/main/java/ru/itis/springbootsemester/services/UsersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../21.02.19_HW9/Spring_boot_semester_work/src/main/java/ru/itis/springbootsemester/services/UsersService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../21.02.19_HW9/Spring_boot_semester_work/src/main/java/ru/itis/springbootsemester/services/UsersServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../21.02.19_HW9/Spring_boot_semester_work/src/main/java/ru/itis/springbootsemester/services/UsersServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../21.02.19_HW9/Spring_boot_semester_work/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../21.02.19_HW9/Spring_boot_semester_work/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../21.02.19_HW9/Spring_boot_semester_work/src/main/resources/http/requests.http" beforeDir="false" afterPath="$PROJECT_DIR$/../../21.02.19_HW9/Spring_boot_semester_work/src/main/resources/http/requests.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../21.02.19_HW9/Spring_boot_semester_work/src/main/resources/static/css/root_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../21.02.19_HW9/Spring_boot_semester_work/src/main/resources/static/css/root.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../21.02.19_HW9/Spring_boot_semester_work/src/main/resources/static/css/sign_up_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../21.02.19_HW9/Spring_boot_semester_work/src/main/resources/static/css/auth.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../21.02.19_HW9/Spring_boot_semester_work/src/main/resources/static/js/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../21.02.19_HW9/Spring_boot_semester_work/src/main/resources/static/js/users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../21.02.19_HW9/Spring_boot_semester_work/src/main/resources/templates/sign_up_page.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/../../21.02.19_HW9/Spring_boot_semester_work/src/main/resources/templates/sign_up_page.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../21.02.19_HW9/Spring_boot_semester_work/src/main/resources/templates/users_page.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/../../21.02.19_HW9/Spring_boot_semester_work/src/main/resources/templates/users_page.ftlh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,6 +178,7 @@
       <updated>1603924848599</updated>
       <workItem from="1603924851743" duration="15698000" />
       <workItem from="1613692461899" duration="2797000" />
+      <workItem from="1617956869447" duration="866000" />
     </task>
     <servers />
   </component>
@@ -170,9 +186,9 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="209" key="FileChooserDialogImpl" timestamp="1613696467219">
+    <state x="549" y="209" key="FileChooserDialogImpl" timestamp="1617957740323">
       <screen x="0" y="43" width="1536" height="821" />
     </state>
-    <state x="549" y="209" key="FileChooserDialogImpl/0.43.1536.821@0.43.1536.821" timestamp="1613696467219" />
+    <state x="549" y="209" key="FileChooserDialogImpl/0.43.1536.821@0.43.1536.821" timestamp="1617957740323" />
   </component>
 </project>

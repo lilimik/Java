@@ -1,3 +1,8 @@
+/* Demo Background */
+body {
+    background: url(https://luxfon.com/pic/201203/1920x1080/luxfon.com-6469.jpg);
+}
+
 /* Form Style */
 .form-horizontal {
     background: rgba(255, 255, 255, .5);
@@ -39,7 +44,7 @@
 
 .form-horizontal .form-group i {
     position: absolute;
-    top: 12px;
+    top: 30px;
     left: 60px;
     font-size: 17px;
     color: #c8c8c8;
@@ -53,7 +58,7 @@
 .form-horizontal .fa-exclamation-circle {
     display: inline-block;
     position: absolute;
-    top: 12px;
+    top: 30px;
     right: 60px;
     font-size: 20px;
     color: #808080;

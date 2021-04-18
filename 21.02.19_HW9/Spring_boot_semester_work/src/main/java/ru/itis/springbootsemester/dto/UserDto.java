@@ -14,6 +14,10 @@ public class UserDto {
     private String email;
     private String firstName;
     private String lastName;
+    private String avatarStorageName;
+    private boolean isActive;
+    private boolean isConfirmed;
+    private String phone;
 
     public static UserDto from(User user) {
         return UserDto.builder()
@@ -21,6 +25,10 @@ public class UserDto {
                 .email(user.getEmail())
                 .firstName(user.getFirst_name())
                 .lastName(user.getLast_name())
+                .avatarStorageName(user.getAvatar_storage_name())
+                .phone(user.getPhone())
+                .isActive(user.isActive())
+                .isConfirmed(user.isConfirmed())
                 .build();
     }
 
