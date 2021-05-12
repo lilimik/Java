@@ -13,7 +13,6 @@ import org.springframework.mail.javamail.MimeMessagePreparator;
 import org.springframework.stereotype.Component;
 import org.springframework.ui.freemarker.SpringTemplateLoader;
 
-import javax.mail.internet.MimeMessage;
 import java.io.IOException;
 import java.io.StringWriter;
 import java.util.HashMap;

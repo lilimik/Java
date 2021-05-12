@@ -25,10 +25,9 @@ public class FileStorageServiceImpl implements FileStorageService {
     @Value("${storage.path}")
     private String storagePath;
 
-
     @Override
     public String saveFile(MultipartFile uploadingFile) {
-        String storageName = UUID.randomUUID().toString() + "." + FilenameUtils.getExtension(uploadingFile.getOriginalFilename());
+        String storageName = UUID.randomUUID() + "." + FilenameUtils.getExtension(uploadingFile.getOriginalFilename());
 
         FileInfo fileInfo = FileInfo.builder()
                 .type(uploadingFile.getContentType())

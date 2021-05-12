@@ -6,7 +6,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Users</title>
+    <title>Films</title>
 
     <@h.head_files>
     </@h.head_files>
@@ -28,11 +28,11 @@
             <div class="col-md-offset-3 col-md-6">
                 <div class="container" style="width: 250px">
                     <div class="form-group">
-                        <label for="user_id" class="text-white">id пользователя:</label>
-                        <input type="number" class="form-control" name="user_id" id="user_id" required>
+                        <label for="film_id" class="text-white">id фильма:</label>
+                        <input type="number" class="form-control" name="film_id" id="film_id" required>
                     </div>
 
-                    <button class="btn btn-primary" onclick="findUser($('#user_id').val())">
+                    <button class="btn btn-primary" onclick="findFilm($('#film_id').val())">
                         найти
                     </button>
                 </div>

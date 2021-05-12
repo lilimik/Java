@@ -1,1 +1,25 @@
-GET localhost:8080/users/
+GET http://localhost/films/9
+
+###
+
+POST http://localhost/films
+Content-Type: application/json
+
+{
+  "boxOffice": 111111111,
+  "budget": 222222222,
+  "countryList": [
+    "Аруба"
+  ],
+  "description": "даб даб даб",
+  "genresList": [
+    "ужасы"
+  ],
+  "poster_storage_name": "bb83c6e4-3cf4-4396-9292-308de6c34999.png",
+  "title": "я ты он они она",
+  "year": 2001
+}
+
+###
+
+

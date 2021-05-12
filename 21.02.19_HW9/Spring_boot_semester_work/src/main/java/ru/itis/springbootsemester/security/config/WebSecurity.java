@@ -37,8 +37,12 @@ public class WebSecurity extends WebSecurityConfigurerAdapter {
                 .antMatchers("/signIn").anonymous() // доступна не авторизованному
                 .antMatchers("/").permitAll() // доступна всем
                 .antMatchers("/profile").authenticated() // только вошедшим пользователям
-//                .antMatchers("/files/**").permitAll()
+                .antMatchers("/files/**").permitAll()
+
                 .antMatchers("/users").hasAuthority("ADMIN")
+//                .antMatchers("/films").hasAuthority("ADMIN")
+                .antMatchers("/films").permitAll()
+
                 .and()
                 .formLogin() // описываем страницу входа
                 .loginPage("/signIn") // наша страница расположена по указанному адресу

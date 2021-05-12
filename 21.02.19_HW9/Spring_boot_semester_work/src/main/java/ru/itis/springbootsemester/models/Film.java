@@ -21,6 +21,7 @@ public class Film {
     private Long boxOffice;
     private Long budget;
     private String description;
+    private String poster_storage_name;
     private Short year;
 
     @OneToMany(mappedBy = "film")

@@ -15,8 +15,12 @@ public class GenresServiceImpl implements GenresService {
     @Autowired
     private GenresRepository genresRepository;
 
+    @Autowired
+    private FilmsService filmsService;
+
     @Override
     public List<GenreDto> getAllGenres() {
         return from(genresRepository.findAll());
     }
+
 }

@@ -37,7 +37,7 @@ public class FilesController {
                 .body(filePath);
     }
 
-    @PermitAll
+//    @PermitAll
     @GetMapping("/files/{file-name:.+}")
     public void getFile(@PathVariable("file-name") String fileName, HttpServletResponse response) {
         fileStorageService.writeFileToResponse(fileName, response);

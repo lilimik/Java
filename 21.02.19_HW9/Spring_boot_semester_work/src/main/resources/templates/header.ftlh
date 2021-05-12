@@ -74,7 +74,6 @@
                         <b>Пользователи</b>
                     </a>
 
-
                     <a class="nav-link nav-item" href="/films">
                         <b>Фильмы</b>
                     </a>
