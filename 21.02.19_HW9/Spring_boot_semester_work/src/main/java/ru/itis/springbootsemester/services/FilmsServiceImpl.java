@@ -1,16 +1,18 @@
 package ru.itis.springbootsemester.services;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Sort;
+import org.springframework.data.domain.Sort.Direction;
 import org.springframework.stereotype.Component;
 import ru.itis.springbootsemester.dto.FilmRO;
-import ru.itis.springbootsemester.models.Country;
+import ru.itis.springbootsemester.dto.FilmsPage;
 import ru.itis.springbootsemester.models.Film;
-import ru.itis.springbootsemester.models.Genre;
 import ru.itis.springbootsemester.repositories.FilmsRepository;
 
 import java.util.List;
 import java.util.Optional;
-import java.util.stream.Collectors;
 
 import static ru.itis.springbootsemester.dto.FilmRO.*;
 
@@ -88,5 +90,31 @@ public class FilmsServiceImpl implements FilmsService {
 
         filmsRepository.save(filmForUpdate);
         return from(filmForUpdate);
+    }
+
+    @Override
+    public FilmsPage search(Integer size, Integer page, String query, String sortParameter, String directionParameter) {
+        Direction direction = Direction.ASC;
+        Sort sort = Sort.by(direction, "id");
+
+        if (directionParameter != null) {
+            direction = Direction.fromString(directionParameter);
+        }
+
+        if (sortParameter != null) {
+            sort = Sort.by(direction, sortParameter);
+        }
+
+        if (query == null) {
+            query = "empty";
+        }
+
+        PageRequest pageRequest = PageRequest.of(page, size, sort);
+        Page<Film> filmsPage = filmsRepository.search(query, pageRequest);
+
+        return FilmsPage.builder()
+                .pagesCount(filmsPage.getTotalPages())
+                .films(from(filmsPage.getContent()))
+                .build();
     }
 }

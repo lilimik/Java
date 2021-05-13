@@ -52,7 +52,7 @@
                                 <img src="/files/${user.avatarStorageName}"
                                      alt="avatar" style="width: 245px; height: 245px">
 
-<#--                                <div id="photo" style="width: 245px; height: 245px"></div>-->
+                                <#--                                <div id="photo" style="width: 245px; height: 245px"></div>-->
 
                                 <h3>${user.getFirstName()} ${user.getLastName()}</h3>
                             </div>
@@ -133,11 +133,13 @@
 
                                     <div class="container col-12 row mb-5">
                                         <div class=" container col-8 pr-5">
-                                            <input type="file" multiple='multiple' id="file" name="file"
+                                            <input type="file" id="file" name="file"
                                                    placeholder="Имя файла..."/>
+                                            <input type="hidden" id="csrf" name="${_csrf.parameterName}"
+                                                   value="${_csrf.token}">
                                         </div>
                                         <div class="container col-2">
-                                            <button onclick="sendFile()"
+                                            <button onclick="sendFile($('#csrf').val())"
                                                     class="btn btn-outline-primary shadow p-2 rounded">
                                                 Загрузить файл
                                             </button>
@@ -147,10 +149,10 @@
                                     </div>
 
                                     <form
-<#--                                            action="/profile?userForm" -->
+                                            <#--                                            action="/profile?userForm" -->
                                             action="/profile"
                                             method="post"
-                                          data-toggle="validator">
+                                            data-toggle="validator">
                                         <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}">
                                         <input type="hidden" name="userId" value="${user.getId()}">
                                         <div class="form-group row">

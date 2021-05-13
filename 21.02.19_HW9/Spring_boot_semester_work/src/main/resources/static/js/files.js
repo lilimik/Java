@@ -1,4 +1,4 @@
-function sendFile() {
+function sendFile(csrf) {
     // данные для отправки
     let formData = new FormData();
     // забрал файл из input
@@ -13,10 +13,14 @@ function sendFile() {
         url: "/files",
         data: formData,
         processData: false,
-        contentType: false
+        contentType: false,
+        headers: {
+            "X-CSRF-TOKEN" : csrf
+        },
     })
         .done(function (response) {
-            let fileUrl = 'http://localhost:80/files/' + response;
+            let fileUrl = 'http://localhost/files/' + response;
+            // let fileUrl = 'http://localhost:80/files/' + response;
             $('#photo').append('<img src = "' + fileUrl + '"/>');
         })
         .fail(function () {

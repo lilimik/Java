@@ -23,7 +23,16 @@
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark position-fixed">
             <div class="class=d-inline-flex">
                 <a class="navbar-brand p-0 m-0" href="/"><img
-                            style="width: 50px; height: 50px;" id="main_image"
+                            style="
+                            width: 50px; height: 50px;
+                            -webkit-border-radius: 100%;
+                            -moz-border-radius: 100%;
+                            -ms-border-radius: 100%;
+                            -o-border-radius: 100%;
+                            border-radius: 100%;
+                            border: 5px solid #ecf0f1;
+                            margin-bottom: 10px;"
+                            id="main_image"
                             src="image/main_image.png"
                             alt="main"></a>
                 <a class="navbar-brand" href="/"><span>КиноФетиш</span></a>
@@ -35,11 +44,14 @@
             </button>
 
             <div class="collapse navbar-collapse justify-content-between col-12" id="navbarSupportedContent">
-                <div class="navbar-nav justify-content-between col-7">
+                <div class="navbar-nav justify-content-between collapsed col-7">
                     <#if user??>
-                        <div>
+                        <div class="flex-fill text-center">
                             <a class="navbar-brand p-0 m-0" href="/profile"><img
-                                        style="width: 50px; height: 50px;"
+                                        style="
+                                        width: 50px; height: 50px;
+                                        border-radius: 100%;"
+                                        id="main_image"
                                         src="/files/${user.avatarStorageName}"
                                         alt="main"></a>
 
@@ -56,7 +68,7 @@
                         </div>
 
                     <#else>
-                        <div>
+                        <div class="flex-fill text-center">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button"
                                data-toggle="dropdown"
                                aria-haspopup="true" aria-expanded="false">
@@ -69,15 +81,16 @@
                         </div>
 
                     </#if>
-
-                    <a class="nav-link nav-item" href="/users">
-                        <b>Пользователи</b>
-                    </a>
-
-                    <a class="nav-link nav-item" href="/films">
-                        <b>Фильмы</b>
-                    </a>
-
+                    <div class="flex-fill text-center">
+                        <a class="nav-link nav-item" href="/users">
+                            <b>Пользователи</b>
+                        </a>
+                    </div>
+                    <div class="flex-fill text-center">
+                        <a class="nav-link nav-item" href="/films">
+                            <b>Фильмы</b>
+                        </a>
+                    </div>
                 </div>
                 <div class="d-flex justify-content-end col-5">
                     <form class="form-inline my-2 my-lg-0 flex-end" action="#">

@@ -14,4 +14,5 @@ import java.util.List;
 public class FilmsPage {
     private int pagesCount;
     private List<FilmRO> films;
+
 }

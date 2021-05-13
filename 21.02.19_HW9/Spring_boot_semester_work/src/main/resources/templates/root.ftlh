@@ -8,7 +8,8 @@
     </@h.head_files>
 
     <link rel="stylesheet" href="/css/root.css">
-    <script src="/js/root.js"></script>
+    <script src="/js/root_genres.js"></script>
+    <script src="/js/root_search.js"></script>
 
 </head>
 <body>
