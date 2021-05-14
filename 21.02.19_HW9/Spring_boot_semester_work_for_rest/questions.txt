@@ -1,0 +1,19 @@
+2) в profile.ftlh -> action="/profile?userForm" &&
+ProfileController -> @RequestMapping(params = "userForm")
+
+доп.тема) проверить anonymous() в security к auth и reg:
+        (Authentication authentication)
+        if (authentication != null) {
+        return "redirect:/..."
+        } else {
+        return "redirect:/..."
+        }
+
+8) не работает подтягивание value с properties
+
+
+--//--//--//----//--//--//--   for me   --\\--\\--\\----\\--\\--\\--
+
+1) как спрятать поле с авой, если рендерить его через аякс
+
+2) сделать админку
